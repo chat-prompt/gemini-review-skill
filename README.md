@@ -18,10 +18,10 @@ Interactive code review using Google Gemini 3.0 Flash with Conventional Comments
 # For project-specific installation
 mkdir -p skills
 cd skills
-git clone https://github.com/YOUR_USERNAME/gemini-review-skill.git gemini-review
+git clone https://github.com/chat-prompt/gemini-review-skill.git gemini-review
 
 # OR for global installation (all projects)
-git clone https://github.com/YOUR_USERNAME/gemini-review-skill.git ~/.claude/skills/gemini-review
+git clone https://github.com/chat-prompt/gemini-review-skill.git ~/.claude/skills/gemini-review
 ```
 
 ### 2. Install dependencies
