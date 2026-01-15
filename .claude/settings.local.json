@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "WebSearch",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(python:*)",
+      "Bash(chmod:*)",
+      "Bash(ls:*)",
+      "Bash(echo:*)",
+      "WebFetch(domain:ai.google.dev)",
+      "Skill(gemini-review)",
+      "Skill(gemini-review:*)",
+      "Bash(python3:*)",
+      "Bash(git -C /Users/wine_ny/side-project/gemini_review_skill log --oneline)",
+      "Bash(git init:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "supabase"
+  ]
+}
