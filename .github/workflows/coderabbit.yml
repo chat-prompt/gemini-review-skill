@@ -1,0 +1,9 @@
+name: CodeRabbit Review
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  review:
+    uses: chat-prompt/.github/.github/workflows/coderabbit-review.yml@main
